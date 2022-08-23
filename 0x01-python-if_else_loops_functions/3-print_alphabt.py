@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for alpha in range(97, 123):
-    if alpha != 'q' or alpha != 'e':
+    if alpha != 113 and alpha != 101:
         print('{:c}'.format(alpha), end = '')
