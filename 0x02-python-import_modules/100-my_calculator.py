@@ -13,10 +13,10 @@ if __name__ == '__main__':
         operater = new_argv[1]
         if operater == '+':
             print('{} {} {} = {}'.format(a, operater, b, add(a, b)))
-        elif operater == '-':
+        elif operater == '-'i:
             print('{} {} {} = {}'.format(a, operater, b, sub(a, b)))
         elif opreater == '*':
-            print('{} {} {} = {}'.format(a, oberater, b, mul(a, b)))
+            print('{} {} {} = {}'.format(a, operater, b, mul(a, b)))
         elif operater == '/':
             print('{} {} {} = {}'.format(a, oberater, b, div(a, b)))
         else:
