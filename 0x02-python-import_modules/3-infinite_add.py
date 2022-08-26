@@ -6,6 +6,5 @@ if __name__ == '__main__':
 
     for num in new_argv:
         result += int(num)
-
     print(result)
 
