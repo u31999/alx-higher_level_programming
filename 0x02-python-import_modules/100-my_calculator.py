@@ -18,6 +18,6 @@ if __name__ == '__main__':
         elif opreater == '*':
             print('{} {} {} = {}'.format(a, operater, b, mul(a, b)))
         elif operater == '/':
-            print('{} {} {} = {}'.format(a, oberater, b, div(a, b)))
+            print('{} {} {} = {}'.format(a, operater, b, div(a, b)))
         else:
             print('Unknown operator. Available operators: +, -, * and /')
