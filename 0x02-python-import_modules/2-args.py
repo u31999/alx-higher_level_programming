@@ -3,7 +3,7 @@ if __name__ == '__main__':
     from sys import argv    
     new_argv = argv[1:]
     argv_len = len(new_argv)
-    output_num_arg = '{:d} arguments'.format(argv_len)
+    output_num_arg = '{} arguments'.format(argv_len)
     if argv_len == 0:
         print(output_num_arg + '.')
     else:
