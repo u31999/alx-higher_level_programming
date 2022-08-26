@@ -13,7 +13,7 @@ if __name__ == '__main__':
         operater = new_argv[1]
         if operater == '+':
             print('{} {} {} = {}'.format(a, operater, b, add(a, b)))
-        elif operater == '-'i:
+        elif operater == '-':
             print('{} {} {} = {}'.format(a, operater, b, sub(a, b)))
         elif opreater == '*':
             print('{} {} {} = {}'.format(a, operater, b, mul(a, b)))
