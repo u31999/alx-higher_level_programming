@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Define a recangle opject
+"""
+
+
 class Rectangle:
-    def __init__(self):
-        pass
+    pass
