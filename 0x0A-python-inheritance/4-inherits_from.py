@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 """
-This module implements  a function that returns True if the object
-is an instance of a class that inherited (directly or indirectly)
-from the specified class ; otherwise False.
+Contains the inherits_from function
 """
 
 
-def inherits_from(obj, a_class) -> bool:
-    """implementation
-    """
-    return type(obj) != a_class and issubclass(type(obj), a_class)
+def inherits_from(obj, a_class):
+    """returns true if obj is a subclass of a_class, otherwise false"""
+    return(issubclass(type(obj), a_class) and type(obj) != a_class)

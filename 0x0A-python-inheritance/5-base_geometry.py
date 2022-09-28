@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-"""
-This module implements an object skeleton for BaseGeometry
-"""
+"""creating BaseGeometry class"""
 
 
 class BaseGeometry:
-    """skeleton
-    """
+    """empty class"""
     pass
