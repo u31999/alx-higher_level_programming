@@ -1,14 +1,6 @@
 #!/usr/bin/python3
-"""Defines a text file-reading function."""
-
-
+"""Read from a file"""
 def read_file(filename=""):
-    """ Function that reads from a file
-        Args:
-        filename: filename
-        Raises
-        Exception: when the file can be opened
-    """
-    with open(filename, 'r', encoding="UTF-8") as f:
-        read_data = f.read()
-        print(read_data, end='')
+    with open(filename, 'r', encoding='utf-8') as f:
+        data = f.read()
+        print(data, end="")
